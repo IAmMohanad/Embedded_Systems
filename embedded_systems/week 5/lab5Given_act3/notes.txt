@@ -1,0 +1,34 @@
+Copy and complete the following table of values, showing at least 8
+different resistor combinations (Section 3.3):
+R1(O) | R2(O) | Calculated Volts (V) | Meter reading (V) | ADC Hex Value | ADC Voltage (V) |
+      |       |                      |                   |               |                 |
+      |       |                      |                   |               |                 |
+      |       |                      |                   |               |                 |
+      |       |                      |                   |               |                 |
+      |       |                      |                   |               |                 |
+      |       |                      |                   |               |                 |
+      |       |                      |                   |               |                 |
+      |       |                      |                   |               |                 |
+      |       |                      |                   |               |                 |
+      |       |                      |                   |               |                 |
+      |       |                      |                   |               |                 |
+      |       |                      |                   |               |                 |
+      |       |                      |                   |               |                 |
+
+
+
+R1(O)	R2(O)	Calculated Volts (V)	Meter reading (V)	ADC Hex Value	ADC Voltage (V)	Hex2Dec
+1000	2200	    2.269			2.26			AFFE	    2.26	45054
+1000	4700	    2.721			2.71			D2E5	    2.71	53989
+1000	8200	    2.941			3.02			EB82	    3.03	60290
+2200	4700	    2.248			2.23			AE1A	    2.24	44570
+2200	8200	    2.602			2.6			CA5A	    2.6	        51802
+4700	8200	    2.098			2.1			A3A5	    2.1	        41893
+8200	1000	    0.359			0.35			1B51	    0.35	6993
+8200	2200	    0.698			0.68			355B	    0.68	13659
+						
+						
+						
+						
+						
+						

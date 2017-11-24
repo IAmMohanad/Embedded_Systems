@@ -1,0 +1,24 @@
+--cpu Cortex-M0+
+".\objects\main.o"
+".\objects\cmsis_os1.o"
+".\objects\irq_cm0.o"
+".\objects\rtx_delay.o"
+".\objects\rtx_evflags.o"
+".\objects\rtx_evr.o"
+".\objects\rtx_kernel.o"
+".\objects\rtx_lib.o"
+".\objects\rtx_memory.o"
+".\objects\rtx_mempool.o"
+".\objects\rtx_msgqueue.o"
+".\objects\rtx_mutex.o"
+".\objects\rtx_semaphore.o"
+".\objects\rtx_system.o"
+".\objects\rtx_thread.o"
+".\objects\rtx_timer.o"
+".\objects\os_systick.o"
+".\objects\rtx_config.o"
+".\objects\startup_mkl25z4.o"
+".\objects\system_mkl25z4.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x1FFFF000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\lab1.map" -o .\Objects\lab1.axf
